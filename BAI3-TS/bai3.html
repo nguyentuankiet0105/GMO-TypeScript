@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bai 3</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<section class="mess screen-1">
+					<header class="mess-header">
+						<div class="mess-header-title">
+							<img class="avatar-head" src="user2.jpg" alt="">Nguyễn Triệu
+							Vỹ
+						</div>
+					</header>
+					<section class="mess-display"></section>
+					<div class="list-btn">
+						<button class="btn btn-bold btn-outline-secondary"
+							onclick="document.execCommand('bold',false,null);">Đậm</button>
+						<button class="btn btn-italic btn-outline-warning"
+							onclick="document.execCommand( 'italic',false,null);">Nghiêng</button>
+						<button class="btn btn-reset btn-outline-danger">Reset</button>
+					</div>
+					<form class="mess-form">
+						<div class="mess-input" contenteditable="true">
+						</div>
+						<button type="submit" class="mess-send-btn" disabled>Send</button>
+					</form>
+				</section>
+			</div>
+
+			<!-- client 2 -->
+			<div class="col-sm-6">
+				<section class="mess screen-2">
+					<header class="mess-header">
+						<div class="mess-header-title">
+							<img class="avatar-head" src="https://appdata.chatwork.com/avatar/2AkekdOgM0.rsz.jpg" alt=""> Nguyễn Tuấn
+							Kiệt
+						</div>
+					</header>
+					<section class="mess-display">
+					</section>
+					<div class="list-btn">
+						<button class="btn btn-bold btn-outline-secondary"
+							onclick="document.execCommand('bold',false,null);">Đậm</button>
+						<button class="btn btn-italic btn-outline-warning"
+							onclick="document.execCommand( 'italic',false,null);">Nghiêng</button>
+						<button class="btn btn-reset btn-outline-danger">Reset</button>
+					</div>
+					<form class="mess-form">
+						<div class="mess-input" contenteditable="true">
+						</div>
+						<button type="submit" class="mess-send-btn" disabled>Send</button>
+					</form>
+				</section>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="bai3.js"></script>
+
+</body>
+
+</html>
