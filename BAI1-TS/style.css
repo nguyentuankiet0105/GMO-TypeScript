@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: fit-content;
+}
+.col-form-label{
+  font-weight: 600;
+}
+.form-group {
+  margin-bottom: 2.5rem;
+}
+span{
+  color: red;
+}
+/* input:valid{
+  border: 1px solid green;
+}
+input:invalid{
+  border: 1px solid red;
+} */
+
+.avatar img {
+  max-width: 100px;
+  border-radius: 50%;
+  align-items: center;
+}
+#file{
+  width: 9%;
+  padding-top: 33px;
+}
+.btn {
+  width: 105px;
+  color: white;
+  font-weight: 500;
+}
+.btn-add{
+  background: #28a745;
+}
+.btn-add:hover{
+  background: #3ab457;
+}
+.info{
+  border: 1px solid black;
+}
+#data_name{
+  margin-top: 6px;
+  
+}
+#data_email{
+  margin-top: 6px;
+}
+#data_phone{
+  margin-top: 8px;
+}
+#data_birthday{
+  margin-top: 9px;
+}
+ #file{
+  /* visibility: hidden; */
+  opacity: 0;
+  position: absolute;
+}
